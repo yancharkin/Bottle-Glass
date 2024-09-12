@@ -1,0 +1,8 @@
+<control>
+image=./images/background.png
+
+<group>
+#include "bottle+.sfz"
+
+<group>
+#include "glass+.sfz"

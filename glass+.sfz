@@ -1,0 +1,48 @@
+<control>
+image=./images/background.png
+default_path=./samples/glass/
+
+<group>
+loop_mode=one_shot
+
+    <region>
+    pitch_keycenter=d#5
+    lokey=a0
+    hikey=e5
+    sample=00_D#5.wav
+
+    <region>
+    pitch_keycenter=g5
+    lokey=f5
+    hikey=a5
+    sample=01_G5.wav
+
+    <region>
+    pitch_keycenter=c#6
+    lokey=a#5
+    hikey=c#6
+    sample=02_C#6.wav
+
+    <region>
+    pitch_keycenter=d6
+    lokey=d6
+    hikey=f#6
+    sample=03_D6.wav
+
+    <region>
+    pitch_keycenter=a#6
+    lokey=g6
+    hikey=b6
+    sample=04_A#6.wav
+
+    <region>
+    pitch_keycenter=c#7
+    lokey=c7
+    hikey=e7
+    sample=05_C#7.wav
+
+    <region>
+    pitch_keycenter=f7
+    lokey=f7
+    hikey=c8
+    sample=06_F7.wav

@@ -1,0 +1,88 @@
+<control>
+image=./images/background.png
+default_path=./samples/bottle/
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.2
+loop_mode=loop_sustain
+//loop_crossfade=.02
+
+    <region>
+    tune=-10
+    sample=00_A2+10.wav
+    pitch_keycenter=a2
+    lokey=c2
+    hikey=c3
+    loop_start=0
+    loop_end=149141
+
+    <region>
+    sample=01_C#3.wav
+    pitch_keycenter=c#3
+    lokey=c#3
+    hikey=e3
+    loop_start=0
+    loop_end=143951
+
+    <region>
+    tune=15
+    sample=02_F3-15.wav
+    pitch_keycenter=f3
+    lokey=f3
+    hikey=g#3
+    loop_start=0
+    loop_end=71519
+
+    <region>
+    tune=20
+    sample=03_A3-20.wav
+    pitch_keycenter=a3
+    lokey=a3
+    hikey=c4
+    loop_start=0
+    loop_end=48525
+
+    <region>
+    tune=15
+    sample=04_C#4-15.wav
+    pitch_keycenter=c#4
+    lokey=c#4
+    hikey=e4
+    loop_start=0
+    loop_end=36339
+
+    <region>
+    tune=-5
+    sample=05_F4+5.wav
+    pitch_keycenter=f4
+    lokey=f4
+    hikey=g#4
+    loop_start=0
+    loop_end=47987
+
+    <region>
+    tune=-20
+    sample=06_A4+20.wav
+    pitch_keycenter=a4
+    lokey=a4
+    hikey=c5
+    loop_start=0
+    loop_end=102257
+
+    <region>
+    sample=07_C#5.wav
+    pitch_keycenter=c#5
+    lokey=c#5
+    hikey=e5
+    loop_start=0
+    loop_end=68689
+
+    <region>
+    tune=25
+    sample=08_F5-25.wav
+    pitch_keycenter=f5
+    lokey=f5
+    hikey=b5
+    loop_start=0
+    loop_end=71269
